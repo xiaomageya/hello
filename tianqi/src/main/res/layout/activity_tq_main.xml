@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <TextView
+            android:layout_height="45.0dp"
+            android:layout_width="match_parent"
+            android:text="天气预报"
+            android:textSize="25.0sp">
+            <TextView
+                android:id="@+id/todayinfo1_cityName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="北京"
+                android:textColor="#FFFFFF"
+                android:textSize="47.0sp"/>
+            <TextView
+                android:id="@+id/todayinfo1_updateTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发布时间18:25"
+                android:textColor="#FFFFFF"
+                android:textSize="20.0sp"/>
+            <TextView
+                android:id="@+id/todayinfo1_humidity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="湿度:57％"
+                android:textColor="#FFFFFF"
+                android:textSize="20.0sp"/>
+
+        </TextView>
+    </RelativeLayout>
